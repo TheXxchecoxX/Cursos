@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.kotlincurso2">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".UsuariosFirebase.PasswordActivity"
+                  android:label="@string/Log">
+        </activity>
+        <activity android:name=".UsuariosFirebase.RegistrationActivity"
+                  android:label="@string/Log">
+        </activity>
+        <activity android:name=".UsuariosFirebase.SecondActivity"
+                  android:label="@string/Log">
+        </activity>
+        <activity android:name=".UsuariosFirebase.LoginFire"
+                  android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity android:name=".FirebaseActivity"
+                  android:label="@string/Fir" >
+        </activity>
+        <activity android:name=".GS2"
+                  android:label="@string/Go" >
+        </activity>
+        <activity android:name=".MenuActivity"
+                  android:label="@string/Men" >
+        </activity>
+        <activity
+                android:name=".GoogleSeg"
+                android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity android:name=".Loc"
+                  android:label="@string/Loc" >
+        </activity>
+        <activity android:name=".Int2"
+                  android:label="@string/Int" >
+        </activity>
+        <activity android:name=".Hilos"
+                  android:label="@string/Hil" >
+        </activity>
+        <activity android:name=".NotificacioesActivity"
+                  android:label="@string/Not" >
+        </activity>
+        <activity android:name=".alert3"
+                  android:label="@string/AlD">
+        </activity>
+        <activity android:name=".SharedPreferencetres"
+                  android:label="@string/ShP" >
+        </activity>
+        <activity android:name=".MemoriainternaActivity"
+                  android:label="@string/Fic">
+        </activity>
+        <activity android:name=".CardViewActivity"
+                  android:label="@string/CV">
+        </activity>
+        <activity android:name=".FragmentActivity"
+                  android:label="@string/FRA" >
+        </activity>
+        <activity android:name=".Activity_DropdownList"
+                  android:label="@string/Lis" >
+        </activity>
+        <activity android:name=".ActivityListView"
+                  android:label="@string/LizV" >
+        </activity>
+        <activity android:name=".Login"
+                  android:label="@string/LO" >
+        </activity>
+        <activity android:name=".Recy"
+                  android:label="@string/Recicler">
+        </activity>
+        <activity android:name=".Activity_ConstraitLayaut"
+                  android:label="@string/Cl" >
+        </activity>
+        <activity android:name=".EstilosB"
+                  android:label="@string/EJB" >
+        </activity>
+        <activity android:name=".Activity_Checkandradiobuttons"
+                  android:label="@string/CyR" >
+        </activity>
+        <activity
+                android:name=".Main2Activity"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MiIntentService"/>
+    </application>
+
+</manifest>

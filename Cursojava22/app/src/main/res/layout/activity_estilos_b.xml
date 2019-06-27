@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4794CC"
+    tools:context=".EstilosB">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnLayouts"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Estilos de botones" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_2"
+        android:layout_below="@+id/layout_1"
+        android:orientation="horizontal">
+        <ToggleButton
+            android:id="@+id/btnToggle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textOn="On"
+            android:textOff="Off"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_3"
+        android:layout_below="@+id/layout_2"
+        android:orientation="horizontal">
+        <Switch
+            android:id="@+id/bt_switch"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textOn="On"
+            android:textOff="off"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_4"
+        android:layout_below="@+id/layout_3"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnImageburon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="ok"
+            android:src="@drawable/star" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_5"
+        android:layout_below="@+id/layout_4"
+        android:orientation="horizontal">
+        <Button android:id="@+id/BtnBotonMasImagen"
+            android:text="Click"
+            android:drawableLeft="@drawable/star"
+            android:drawablePadding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_6"
+        android:layout_below="@+id/layout_5"
+        android:orientation="vertical">
+
+        <Button android:id="@+id/btnBotonSimple"
+            android:text="Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton android:id="@+id/BtnSinBorde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="icono_ok"
+            android:src="@drawable/star"
+            style="?android:borderlessButtonStyle"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Curso Android Java</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Curso de android Java</string>
+    <string name="nav_header_subtitle">Sergio Cruz Martinez</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Hola esto es un toolbar</string>
+
+    <string name="Go">Conectdo a cuenta google</string>
+    <string name="Int">Intent Service</string>
+    <string name="Log">Login a Firebase</string>
+    <string name="Men">Ejemplo Tab</string>
+    <string name="Fir">CRUD  a Firebase</string>
+    <string name="Loc">Localización</string>
+    <string name="Hil">Ejemplos de tareas en segundo plano</string>
+    <string name="Not">Notificaciones</string>
+    <string name="AlD">AlertDialog</string>
+    <string name="ShP">SharedPreferences</string>
+    <string name="CV">CardView</string>
+    <string name="FRA">Ejemplo de cómo juntar Fragment</string>
+    <string name="Lis">Lista desplegable</string>
+    <string name="LizV">ListView</string>
+    <string name="LO">Login</string>
+    <string name="Recicler">ReciclerView</string>
+    <string name="CyR">Ejemplos de CheckBox y RadioButtons</string>
+    <string name="Cl">ConstraintLayout</string>
+    <string name="EJB">Ejemplos de Botonez</string>
+    <string name="Fic">Almacenar datos en la memoria</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Fragment rojo</string>
+    <string name="menu_slideshow">Fragment verde</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Curso Java</string>
+    <string name="menu_send">Firebase</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="toolbar">Hola esto es un Toolbar</string>
+    <string name="celda_1_1">Celda 1.1</string>
+    <string name="celda_1_2">Celda 1.2</string>
+    <string name="celda_1_3">Celda 1.3</string>
+    <string name="celda_2_1">Celda 2.1</string>
+    <string name="celda_2_2">Celda 2.2</string>
+    <string name="celda_2_3">Celda 2.3</string>
+    <string name="celda_3_1">Celda 3.1</string>
+    <string name="celda_3_2">Celda 3.2</string>
+
+    <string name="sss">sss</string>
+    <string name="b1">b1</string>
+    <string name="b2">b2</string>
+    <string name="b3">b3</string>
+    <string name="b4">b4</string>
+    <string name="marcame">marcame</string>
+    <string name="opcion_1">opcion_1</string>
+    <string name="opcion_2">opcion_2</string>
+    <string name="tarjeta_1">tarjeta 1</string>
+    <string name="tarjeta_2">tarjeta 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="insertar">Insertar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="mover">Mover</string>
+    <string name="selecciona_una_opcion">selecciona_una_opcion</string>
+    <string name="guardar">Guardar</string>
+
+
+    <string name="bitguardada">Nota guardada correctamente</string>
+
+    <string name="email">Email</string>
+    <string name="digite_su_email">Digite su email</string>
+    <string name="forma_pegamento">Forma pegamento</string>
+    <string name="radio1">Radio1</string>
+    <string name="tarjeta_de_credito">Tarjeta de credito</string>
+    <string name="dnero">Efectivo</string>
+    <string name="recivir">Recivir</string>
+    <string name="logo">Logo</string>
+    <string name="arquivoDB_fail">Arquivo no inicializado!</string>
+    <string name="llenarcampos">Llena adecuadamente los datos</string>
+    <string name="guardado_correcto">Guardado correcto!</string>
+    <string name="cargado">Cargado correctamente</string>
+    <string name="titulo">Titulo</string>
+    <string name="mensaje">Mensaje</string>
+
+    <string name="enviar_mensaje_1">Enviar primer notificacion</string>
+    <string name="enviar_mensaje_2">Enviar segunda notificacion</string>
+
+    <string name="tarea_pesada">Tarea pesada</string>
+    <string name="hilos">Hilos</string>
+    <string name="atk">AsyncTask</string>
+    <string name="iniciar_servicio">iniciar servicio</string>
+    <string name="desconectar">Desconectar</string>
+    <string name="a">Login Firebase</string>
+    <string name="hola">Hola</string>
+    <string name="ya_estoy_registrado">Ya estoy registrado</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="solo_es_una_prueba">Solo es una prueba de como funciona un ConstraintLayout</string>
+</resources>
